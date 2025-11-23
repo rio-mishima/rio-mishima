@@ -12,4 +12,5 @@ public class SelfIntroduction {
 		System.out.println("年齢は" + age + "歳です。");
 		System.out.println("趣味は" + hobby + "です。");
 	}
+	
 }
