@@ -7,14 +7,14 @@ public class Question1 {
         // 各型の変数宣言と初期値を設定
     	
     	// 変数byteNumの初期値を設定
-        byte byteNum = 10;
+        byte byteNum = 0;
         // 変数shortNumの初期値を設定
-        short shortNum = 1000;
+        short shortNum = 0;
 
         // 変数intNumの初期値を設定
         int intNum = 0;
         // 変数longNumの初期値を設定
-        long longNum = 123456789L;
+        long longNum = 0L;
         
         // 変数floatNumの初期値を設定
         float floatNum = 0.0f;
@@ -22,12 +22,12 @@ public class Question1 {
         double doubleNum = 0.0;
         
         // 変数letterの初期値を設定
-        char letter = 'A';
+        char letter = '\u0000';
         // 変数lettersの初期値を設定
-        String letters = "Hello";
+        String letters = "null";
 
         // 変数isBooleanの初期値を設定
-        boolean isBoolean = true;
+        boolean isBoolean = false;
         
         // Q1で宣言した変数に指定された値を代入
         
