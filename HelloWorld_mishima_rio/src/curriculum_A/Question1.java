@@ -122,8 +122,38 @@ public class Question1 {
 
         // 最終スコアを出力
         System.out.println("最終スコア: " + score);
+        
+        
+        // double型の変数を宣言して代入
+        double price = 99.99;
 
+        // int型に変換
+        int intPrice = (int) price;
 
+        // 結果を出力
+        System.out.println("整数価格: " + intPrice);
+        
+        
+        // String 型の変数に "123" を代入
+        String numStr = "123";
+
+        // String を int に変換
+        int num = Integer.parseInt(numStr);
+
+        // 変換後の値に 10 を足して出力
+        System.out.println("変換後の値: " + (num + 10));
+        
+       
+        // int 型の変数に 50 を代入
+        num = 50;
+        
+        // int を String に変換
+        String numStr1= String.valueOf(num);
+
+        // 出力
+        System.out.println("得点: " + numStr1 + "点");
+        
+     
     }
 }
 
