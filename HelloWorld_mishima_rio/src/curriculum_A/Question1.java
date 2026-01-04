@@ -153,6 +153,36 @@ public class Question1 {
         // 出力
         System.out.println("得点: " + numStr1 + "点");
         
+        
+        // int 型の変数 a に 10 を代入
+        int a = 10;
+
+        // int 型の変数 b に 20 を代入
+        int b = 20;
+
+        // a が b より小さいかどうかをboolean 変数 result に代入
+        boolean result1 = (a < b) ? true : false;
+
+        // result の値を出力
+        System.out.println(result1);
+        
+        
+        // int 型の変数 x に 15 を代入
+        int x = 15;
+
+        // x が 10 以上なら "OK"、そうでなければ "NG" を出力
+        String result2 = (x >= 10) ? "OK" : "NG";
+
+        System.out.println(result2);
+        
+        
+        String text = "私はJavaが好きです。Javaは楽しい!";
+        
+        // 「Java」を「Python」に置き換える
+        String result3 = text.replace("Java", "Python");
+        
+        // 出力
+        System.out.println(result3);
      
     }
 }
