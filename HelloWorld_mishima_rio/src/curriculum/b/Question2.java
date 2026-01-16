@@ -4,44 +4,47 @@ import java.util.Scanner;
 
 public class Question2 {
 
-	public static void main(String[] args) {
-		
-		// int 型変数 scoreに 75 を代入
-		int score = 75;
-        
-		//scoreが 60 以上なら"合格です！”と表示
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        // int 型変数 scoreに 75 を代入
+        int score = 75;
+
+        // scoreが 60 以上なら"合格です！”と表示
         if (score >= 60) {
-            System.out.println("合格です！"); 
+            System.out.println("合格です！");
         }
-            
-        //  int 型変数 intに 25 を代入 
-        int age = 25;
         
-        // age が 20 以上 30 以下なら "適正年齢です" と表示
+        
+        // int 型変数 age に 25 を代入
+        int age = 25;
+
+        // age が 20 以上 30 以下なら "適正年齢です"と表示
         // それ以外の場合は"対象外です" と表示
         if (age >= 20 && age <= 30) {
-                System.out.println("適正年齢です");
-            } else {
-                System.out.println("対象外です");
-                
+            System.out.println("適正年齢です");
+        } else {
+            System.out.println("対象外です");
         }
-                
-        //18 を代入
-        age = 18;
         
+        
+        // 18 を代入
+        age = 18;
+
         //age が 20 以上なら "成人です" と表示 
         //age が 13 以上 19 以下なら "ティーンエイジャーです" と表示
         //age が 12 以下なら "子供です" と表示
         if (age >= 20) {
-                    System.out.println("成人です");
-            } else if (age >= 13 && age <= 19) {
-                    System.out.println("ティーンエイジャーです");
-                } else {
-                    System.out.println("子供です");
+            System.out.println("成人です");
+        } else if (age >= 13 && age <= 19) {
+            System.out.println("ティーンエイジャーです");
+        } else {
+            System.out.println("子供です");
         }
-                    
+        
+        
         //int 型変数 x, y, z に 30, 15, 50 を代入
-                    
         int x = 30;
         int y = 15;
         int z = 50;
@@ -56,11 +59,9 @@ public class Question2 {
         }
         
         
-        Scanner sc = new Scanner(System.in); 
-    
         System.out.print("数値を入力してください: ");
-        int num = sc.nextInt();
- 
+        int num = Integer.parseInt(sc.nextLine());
+        
         // num の値が 0 より大きければ "正の数です" と表示
         // num の値が 0 なら "0 です" と表示
         // num の値が 0 より小さければ "負の数です" と表示
@@ -74,10 +75,8 @@ public class Question2 {
         
         
         System.out.print("数値を入力してください（偶数・奇数判定用）: ");
-        int value = sc.nextInt();  
-        
-        //value が 偶数 なら "偶数です" と表示
-        //value が 奇数 なら "奇数です" と表示
+        int value = Integer.parseInt(sc.nextLine());
+
         if (value % 2 == 0) {
             System.out.println("偶数です");
         } else {
@@ -86,7 +85,7 @@ public class Question2 {
         
         
         System.out.print("スコアを入力してください（0〜100）: ");
-        int score1 = sc.nextInt();  
+        int score1 = Integer.parseInt(sc.nextLine());
         
         //90 以上なら "優"
         //70 以上なら "良"
@@ -101,20 +100,18 @@ public class Question2 {
         } else {
             System.out.println("不可");
         }
-        
-        
+
         System.out.print("文字列を入力してください: ");
-        
+        String input = sc.nextLine();
+
         //コンソール入力が null または空文字（""）のときに「入力が無効です」と表示する処理
-        try (Scanner scanner = new Scanner(System.in)) { 
-            String input = scanner.nextLine();
 
         if (input == null || input.isEmpty()) {
             System.out.println("入力が無効です");
         } else {
             System.out.println("入力内容: " + input);
-            }
-        } 
+        }
 
-    } 
-}     
+        sc.close();
+    }
+}
