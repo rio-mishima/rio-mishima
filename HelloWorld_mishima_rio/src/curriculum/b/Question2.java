@@ -111,7 +111,68 @@ public class Question2 {
         } else {
             System.out.println("入力内容: " + input);
         }
+        
+        
+        System.out.print("曜日番号を入力してください（1〜7）: ");
+        //int 型変数 day を用意
+        int day = Integer.parseInt(sc.nextLine());
+        
+        //day の値に応じて曜日を表示
+        switch (day) {
+            case 1:
+                System.out.println("月曜日");
+                break;
+            case 2:
+                System.out.println("火曜日");
+                break;
+            case 3:
+                System.out.println("水曜日");
+                break;
+            case 4:
+                System.out.println("木曜日");
+                break;
+            case 5:
+                System.out.println("金曜日");
+                break;
+            case 6:
+                System.out.println("土曜日");
+                break;
+            case 7:
+                System.out.println("日曜日");
+                break;
+            default:
+                System.out.println("無効の入力です");
+                break;
+        }
+        
+        
+        System.out.print("月を入力してください（1〜12）: ");
+        //int 型の変数 month を用意
+        int month = Integer.parseInt(sc.nextLine());
+        
+        //month の値に応じて季節を表示
+        switch (month) {
+            case 12: case 1: case 2:
+                System.out.println("冬");
+                break;
 
+            case 3: case 4: case 5:
+                System.out.println("春");
+                break;
+
+            case 6: case 7: case 8:
+                System.out.println("夏");
+                break;
+
+            case 9: case 10: case 11:
+                System.out.println("秋");
+                break;
+
+            default:
+                System.out.println("無効な月です");
+                break;
+        }
+        
         sc.close();
     }
 }
