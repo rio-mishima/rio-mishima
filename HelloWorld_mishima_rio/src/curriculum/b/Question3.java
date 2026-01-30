@@ -90,18 +90,26 @@ public class Question3 {
         
         
          // 0が入力されるまで繰り返す
-        int input;
-
         while (true) {
-            System.out.print("数値を入力してください（0で終了）: ");
-            input = Integer.parseInt(sc.nextLine());
 
-            if (input == 0) {
-                System.out.println("終了しました");
-                break;
+            System.out.print("数値を入力してください（0で終了）: ");
+
+            try {
+
+                int input = Integer.parseInt(sc.nextLine());
+
+                if (input == 0) {
+                    System.out.println("終了しました");
+                    break;
+                }
+
+            } catch (NumberFormatException e) {
+
+                System.out.println("数値を入力してください");
+
             }
         }
-        
+
         
         // 九九を指定フォーマットで表示
         for (int a = 1; a <= 9; a++) {
