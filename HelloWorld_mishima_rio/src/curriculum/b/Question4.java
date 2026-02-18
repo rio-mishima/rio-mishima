@@ -91,6 +91,77 @@ public class Question4 {
         } else {
             System.out.println("「" + target + "」は配列に含まれていません");
         }
+        
+        
+        // 2次元配列の全要素を表示 
+        int[][] array = {{1, 2}, {3, 4}, {5, 6}};
+
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array[i].length; j++) {
+                System.out.println(array[i][j]);
+            }
+        }
+        
+        
+        //  2次元配列の合計値を求める 
+        int[][] array2 = {
+            {10, 20, 30},
+            {40, 50, 60},
+            {70, 80, 90}
+        };
+
+        int sum2 = 0;
+
+        for (int i = 0; i < array2.length; i++) {
+            for (int j = 0; j < array2[i].length; j++) {
+                sum2 += array2[i][j];
+            }
+        }
+
+        System.out.println("合計値: " + sum2);
+        
+        
+        //  2次元配列の最大値と最小値
+        int[][] array3 = {
+            {12, 15, 8},
+            {6, 19, 25},
+            {30, 2, 10}
+        };
+
+        int max2 = array3[0][0];
+        int min2 = array3[0][0];
+
+        for (int i = 0; i < array3.length; i++) {
+            for (int j = 0; j < array3[i].length; j++) {
+
+                if (array3[i][j] > max2) {
+                    max2 = array3[i][j];
+                }
+
+                if (array3[i][j] < min2) {
+                    min2 = array3[i][j];
+                }
+            }
+        }
+
+        System.out.println("最大値: " + max2);
+        System.out.println("最小値: " + min2);
+
+        
+        // 3次元配列の全要素を表示 
+        int[][][] array4 = {
+            {{1, 2}, {3, 4}},
+            {{5, 6}, {7, 8}}
+        };
+
+        for (int i = 0; i < array4.length; i++) {
+            for (int j = 0; j < array4[i].length; j++) {
+                for (int k = 0; k < array4[i][j].length; k++) {
+                    System.out.println(array4[i][j][k]);
+                }
+            }
+        }
+
              
         sc.close();
 
