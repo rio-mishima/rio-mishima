@@ -1,0 +1,19 @@
+=== Battle Start ===
+田中 VS Daemon
+
+先攻：Daemon
+
+Daemon の攻撃！ 田中 に 12 ダメージ
+田中 の攻撃！ Daemon に 16 ダメージ
+Daemon の攻撃！ 田中 に 12 ダメージ
+田中 の攻撃！ Daemon に 16 ダメージ
+Daemon の攻撃！ 田中 に 12 ダメージ
+田中 の攻撃！ Daemon に 16 ダメージ
+Daemon の攻撃！ 田中 に 12 ダメージ
+田中 の攻撃！ Daemon に 16 ダメージ
+Daemon の攻撃！ 田中 に 12 ダメージ
+田中 の攻撃！ Daemon に 16 ダメージ
+Daemon の攻撃！ 田中 に 12 ダメージ
+
+=== Battle Result ===
+Daemon の勝利！
