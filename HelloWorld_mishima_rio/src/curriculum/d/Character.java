@@ -35,8 +35,10 @@ public class Character {
     // ダメージ処理
     public void damage(int attack) {
         hp -= attack;
+        if (hp < 0) {
+            hp = 0;
+        }
     }
-
     // 生存判定
     public boolean isAlive() {
         return hp > 0;

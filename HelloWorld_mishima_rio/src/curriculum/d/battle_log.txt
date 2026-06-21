@@ -1,23 +1,19 @@
 === Battle Start ===
-佐藤 VS Daemon
+山田 VS Daemon
 
 先攻：Daemon
 
-Daemon の攻撃！ 佐藤 に 12 ダメージ
-佐藤 の攻撃！ Daemon に 11 ダメージ
-Daemon の攻撃！ 佐藤 に 12 ダメージ
-佐藤 の攻撃！ Daemon に 11 ダメージ
-Daemon の攻撃！ 佐藤 に 12 ダメージ
-佐藤 の攻撃！ Daemon に 11 ダメージ
-Daemon の攻撃！ 佐藤 に 12 ダメージ
-佐藤 の攻撃！ Daemon に 11 ダメージ
-Daemon の攻撃！ 佐藤 に 12 ダメージ
-佐藤 の攻撃！ Daemon に 11 ダメージ
-Daemon の攻撃！ 佐藤 に 12 ダメージ
-佐藤 の攻撃！ Daemon に 11 ダメージ
-Daemon の攻撃！ 佐藤 に 12 ダメージ
-佐藤 の攻撃！ Daemon に 11 ダメージ
-Daemon の攻撃！ 佐藤 に 12 ダメージ
+Daemon の攻撃！ 山田 に 12 ダメージ
+山田 の攻撃！ Daemon に 15 ダメージ
+Daemon の攻撃！ 山田 に 12 ダメージ
+山田 の攻撃！ Daemon に 15 ダメージ
+Daemon の攻撃！ 山田 に 12 ダメージ
+山田 の攻撃！ Daemon に 15 ダメージ
+Daemon の攻撃！ 山田 に 12 ダメージ
+山田 の攻撃！ Daemon に 15 ダメージ
+Daemon の攻撃！ 山田 に 12 ダメージ
+山田 の攻撃！ Daemon に 15 ダメージ
+Daemon の攻撃！ 山田 に 12 ダメージ
 
 === Battle Result ===
 Daemon の勝利！

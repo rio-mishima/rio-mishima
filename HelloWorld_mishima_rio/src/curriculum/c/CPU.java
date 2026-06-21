@@ -4,11 +4,10 @@ import java.util.Random;
 
 public class CPU {
 
-    // ランダムで手を出す
-    public int getRandomHand() {
+    // Randomをフィールドとして保持
+    private Random random = new Random();
 
-        Random random = new Random();
-
+    public int getHand() {
         return random.nextInt(3);
     }
 }
